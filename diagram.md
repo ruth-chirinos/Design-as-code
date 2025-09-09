@@ -1,4 +1,5 @@
-subgraph "1. Capa de Presentación"
+graph TD    
+    subgraph "1. Capa de Presentación"
         direction LR
         A[Usuarios] -- Tráfico Web --> B{Balanceador de Carga}
         B -- Distribuye --> C[Servidor Web]
