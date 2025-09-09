@@ -1,4 +1,4 @@
-graph TD    
+graph TD
     subgraph "1. Capa de Presentación"
         direction LR
         A[Usuarios] -- Tráfico Web --> B{Balanceador de Carga}
